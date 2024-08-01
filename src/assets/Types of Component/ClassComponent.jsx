@@ -1,7 +1,7 @@
 //  In a class component, you use the render method to return JSX.
 // You can directly include the JSX for the table structure (header, body, etc.) inside this method.Example Below
 import { Component } from "react";
-class Table extends Component {
+class ClassComp extends Component {
   //Class Component
   // The Table class is defined & It extends Component, making it a React component.
   render() {
@@ -33,4 +33,4 @@ class Table extends Component {
   }
 }
 
-export default Table;
+export default ClassComp;
