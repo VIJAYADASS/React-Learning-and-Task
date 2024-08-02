@@ -18,7 +18,9 @@ class ClassCounter extends Component {
     return (
       <div>
         <p>Class Counter: {this.state.count}</p>
-        <button onClick={this.incrementCount}>Increment</button>
+        <button className="btn-cc" onClick={this.incrementCount}>
+          Increment
+        </button>
       </div>
     );
   }

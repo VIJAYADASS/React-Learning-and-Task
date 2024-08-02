@@ -9,7 +9,9 @@ function FunctionCounter() {
   return (
     <div>
       <p>Function Counter : {count}</p>
-      <button onClick={Increment}>Click me</button>
+      <button className="btn-fc" onClick={Increment}>
+        Click me
+      </button>
     </div>
   );
 }
