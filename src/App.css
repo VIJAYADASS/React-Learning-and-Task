@@ -53,3 +53,19 @@ tr:hover {
   color: black;
   padding: 5px 5px;
 }
+
+/* Function Component */
+.btn-fc,
+.btn-cc {
+  padding: 8px;
+  background-color: coral;
+  border: none;
+  color: #333;
+}
+
+/* useContext */
+
+.box {
+  border: 3px solid;
+  padding: 25px;
+}
