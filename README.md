@@ -16,7 +16,7 @@ Objective: Create two React components: one using a class-based approach and the
 Passing and Displaying Props in React.
 #Task: Create props using Parent and Child components in React.
 Objective: Create a parent component that passes data as props to a child component. The child component should display the received props in a structured format.
-#Requirements:
+# Requirements:
 1. Create a parent component called ParentComponent.
 2. Create a child component called ChildComponent.
 3. The ParentComponent should pass the following data as props to the ChildComponent:
