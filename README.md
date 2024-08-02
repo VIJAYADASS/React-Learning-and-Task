@@ -11,7 +11,7 @@ Objective: Create two React components: one using a class-based approach and the
 4. Use state management to handle the counter value.
 5. Ensure the components are reusable and can be imported into another Component.
 
-#Day 2
+# Day 2
 
 Passing and Displaying Props in React.
 #Task: Create props using Parent and Child components in React.
