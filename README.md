@@ -19,7 +19,7 @@ Objective: Create a parent component that passes data as props to a child compon
 # Requirements:
 1. Create a parent component called ParentComponent.
 2. Create a child component called ChildComponent.
-3. The ParentComponent should pass the following data as props to the ChildComponent:
+3. The ParentComponent should pass the following data as props to the ChildComponent.
     Name, Age, Email
 4. The ChildComponent should display the received data in a readable format.
 
