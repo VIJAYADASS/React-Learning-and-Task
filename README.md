@@ -25,6 +25,22 @@ Objective: Create a parent component that passes data as props to a child compon
    3. Email
 5. The ChildComponent should display the received data in a readable format.
 
+# Day-03
+
+Create the use state hook
+# Task:
+Create a simple counter application using React's useState hook. The application should display the current count and have three buttons: one to increment the count, one to decrease the count, and one to reset the count to zero. Implement the functionality so that clicking each button updates the displayed count appropriately.
+
+Requirements:
+1. Display the current count.
+2. Provide three buttons:
+   1. Increment,
+   2. Decrement,
+   3. Reset.
+4. Clicking the Increment button should increase the count by 1.
+5. Clicking the Decrement button should decrease the count by 1.
+6. Clicking the Reset button should set the count back to 0.
+
    
 
  
