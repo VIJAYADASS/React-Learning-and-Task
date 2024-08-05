@@ -10,7 +10,9 @@ function Usestate() {
   return (
     <div>
       <p>Current number: {inc}</p>
-      <button onClick={handleAdd}>Add</button>
+      <button className="useState" onClick={handleAdd}>
+        Add
+      </button>
     </div>
   );
 }

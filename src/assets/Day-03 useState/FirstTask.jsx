@@ -18,7 +18,7 @@ const Counter = () => {
   };
 
   return (
-    <div>
+    <div className="buttonContainer">
       <p>Current number:{count} </p>
       <button className="firstTask" onClick={increment}>
         Increment
