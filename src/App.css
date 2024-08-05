@@ -73,13 +73,20 @@ tr:hover {
 .head {
   color: crimson;
 }
-
+/* useState */
+.useState {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
 /* useState hook - secondTask */
 form {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px red;
+  width: 40%;
 }
 
 form div {
@@ -93,7 +100,7 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 40%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -107,11 +114,12 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  grid-column: 15px; /* Added margin-top for gap */
+  grid-column: 15px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: lightgreen;
+  color: black;
 }
 
 h3 {
@@ -119,8 +127,45 @@ h3 {
 }
 
 p {
-  background-color: #e9ecef;
+  width: 15%;
+  background-color: ghostwhite;
   padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px red;
+}
+
+/* useState FirstTask */
+.buttonContainer {
+  display: block;
+}
+
+.firstTask {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* useeffects */
+.useeffects .button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
   border-radius: 4px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  grid-column: 15px;
+}
+
+.useeffects .button:hover {
+  background-color: lightgreen;
+  color: black;
+}
+/* useEffects second Task */
+
+.useEffectSndTask {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
 }
