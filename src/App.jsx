@@ -3,6 +3,9 @@ import FCApp from "./assets/Day-01 Types of Components/FCApp";
 import ParentComponent from "./assets/Day-02  Props/ParentComponentTask";
 import Propsapp from "./assets/Day-02  Props/Propsapp";
 import UseStateApp from "./assets/Day-03 useState/UseStateApp";
+import EffectsApp from "./assets/Day-04 useEffects/EffectsApp";
+import FetchData from "./assets/Day-04 useEffects/useEffectsFirstTask";
+import CountdownTimer from "./assets/Day-04 useEffects/useEffectsSecondTask";
 // import FCApp from "";
 
 function App() {
@@ -16,6 +19,13 @@ function App() {
       <ParentComponent />
       <h2 className="h2">useState Hook</h2>
       <UseStateApp />
+      <h2 className="h2">useEffects Hook</h2>
+      <EffectsApp />
+      <h2 className="h2">useEffects Task</h2>
+      <h2 className="head">Fetch data from an API </h2>
+      <FetchData />
+      <h2 className="head">CounterTimer()</h2>
+      <CountdownTimer />
     </>
   );
 }
