@@ -169,3 +169,19 @@ p {
   cursor: pointer;
   margin-right: 10px;
 }
+
+/* Conditional Statement */
+
+.success {
+  width: 30%;
+  background-color: lightgreen;
+  color: black;
+  padding: 2px 6px;
+}
+
+.danger {
+  width: 30%;
+  background-color: firebrick;
+  color: white;
+  padding: 2px 6px;
+}
