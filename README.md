@@ -51,7 +51,7 @@ Create a simple React component that fetches data from an API when the component
 2. Use the use state hook to store the fetched data.
 3. Display the data in a list format.
 4. Ensure proper error handling if the fetch request fails.
-# API Endpoint: You can use a public API endpoint like https://jsonplaceholder.typicode.com/posts to fetch data.
+API Endpoint: You can use a public API endpoint like https://jsonplaceholder.typicode.com/posts to fetch data.
 
 # Task Two:
 Countdown Timer using use effect
