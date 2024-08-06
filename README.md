@@ -65,6 +65,21 @@ Create a simple countdown timer component in React. The timer should start from 
 5. When the timer reaches zero, display "Time's up!".
 # Bonus:
 Add a start and reset button to control the timer.
-   
+
+# Day-05 
+Conditional Statement 
+Conditional rendering and ternary operator usage
+
+# Task for Conditional Statement
+Add conditional statements and ternary operators using props in Parent and Child components. 
+
+List and Key Components.
+Create a dummy product list with an array and use keys for list items
+# Task 1 for List and Key.
+Create a React component named TaskList that displays a list of tasks. Use the following array of tasks: 
+Your component should display each task in an unordered list (<ul>), and each task should be wrapped in a list item (<li>). Use the id of each task as the key prop for each li element.
+
+# Task 2 for List and Key.
+Update the TaskList component to conditionally display a message when there are no tasks. If the tasks array is empty, display the message "No tasks available". Otherwise, display the list of tasks.
 
  
