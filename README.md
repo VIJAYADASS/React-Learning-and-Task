@@ -41,6 +41,30 @@ Requirements:
 5. Clicking the Decrement button should decrease the count by 1.
 6. Clicking the Reset button should set the count back to 0.
 
+# Day-04
+Learned the use of effects hook in React.
+# Task one:
+Create a simple React component that fetches data from an API when the component mounts. Display the fetched data in a list.
+
+# Requirements:
+1. Use the use effect hook to perform the data fetching when the component mounts.
+2. Use the use state hook to store the fetched data.
+3. Display the data in a list format.
+4. Ensure proper error handling if the fetch request fails.
+# API Endpoint: You can use a public API endpoint like https://jsonplaceholder.typicode.com/posts to fetch data.
+
+# Task Two:
+Countdown Timer using use effect
+Create a simple countdown timer component in React. The timer should start from a given number of seconds and count down to zero. When the timer reaches zero, display a message "Time's up!.
+
+# Requirements:
+1. Use the use state hook to manage the timer state.
+2. Use the use effect hook to handle the countdown logic.
+3. The countdown should decrease by 1 every second.
+4. Display the remaining time.
+5. When the timer reaches zero, display "Time's up!".
+# Bonus:
+Add a start and reset button to control the timer.
    
 
  
