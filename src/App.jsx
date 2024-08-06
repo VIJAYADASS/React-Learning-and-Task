@@ -1,4 +1,5 @@
 import "./App.css";
+import Conditional from "./assets/Day-05 Connditional Statement/Conditional";
 import FCApp from "./assets/Day-01 Types of Components/FCApp";
 import ParentComponent from "./assets/Day-02  Props/ParentComponentTask";
 import Propsapp from "./assets/Day-02  Props/Propsapp";
@@ -6,7 +7,8 @@ import UseStateApp from "./assets/Day-03 useState/UseStateApp";
 import EffectsApp from "./assets/Day-04 useEffects/EffectsApp";
 import FetchData from "./assets/Day-04 useEffects/useEffectsFirstTask";
 import CountdownTimer from "./assets/Day-04 useEffects/useEffectsSecondTask";
-// import FCApp from "";
+import ListandKeys from "./assets/Day-05 List and keys/ListsandKeys";
+import TaskList from "./assets/Day-05 List and keys/TaskList";
 
 function App() {
   return (
@@ -24,8 +26,14 @@ function App() {
       <h2 className="h2">useEffects Task</h2>
       <h2 className="head">Fetch data from an API </h2>
       <FetchData />
-      <h2 className="head">CounterTimer()</h2>
+      <h2 className="head">CounterTimer</h2>
       <CountdownTimer />
+      <h2 className="h2">Conditional Statement</h2>
+      <Conditional />
+      <h2 className="h2">List and Keys</h2>
+      <ListandKeys />
+      <h2 className="h2">List and Keys Task</h2>
+      <TaskList />
     </>
   );
 }
