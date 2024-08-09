@@ -9,6 +9,8 @@ import FetchData from "./assets/Day-04 useEffects/useEffectsFirstTask";
 import CountdownTimer from "./assets/Day-04 useEffects/useEffectsSecondTask";
 import ListandKeys from "./assets/Day-05 List and keys/ListsandKeys";
 import TaskList from "./assets/Day-05 List and keys/TaskList";
+import EventsSync from "./assets/Day-06 Events Handler/EventsSynchronomous";
+import EventsAsync from "./assets/Day-06 Events Handler/EventsAsynchronomous";
 
 function App() {
   return (
@@ -34,6 +36,9 @@ function App() {
       <ListandKeys />
       <h2 className="h2">List and Keys Task</h2>
       <TaskList />
+      <h2 className="h2">Events Handling</h2>
+      <EventsSync />
+      <EventsAsync />
     </>
   );
 }
