@@ -82,4 +82,13 @@ Your component should display each task in an unordered list (<ul>), and each ta
 # Task 2 for List and Key.
 Update the TaskList component to conditionally display a message when there are no tasks. If the tasks array is empty, display the message "No tasks available". Otherwise, display the list of tasks.
 
+# Day-06 
+Events Handles
+Using a combination of asynchronous and synchronous functions as event handlers for the `onClick` events of three different buttons. 
+
+Asynchronous Operations: 
+All three functions (handleClick, handleClick1, handleClick3) include asynchronous operations due to the async keyword and the await usage.
+Synchronous Operations: 
+The initial logs and operations that occur before waiting in each function are synchronous.
+ 
  
