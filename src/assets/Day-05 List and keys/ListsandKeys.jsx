@@ -1,5 +1,6 @@
+const dummyProductData = ["Vegetable", "Dhall", "Nuts"];
+
 function productList() {
-  const dummyProductData = ["Vegetable", "Dhall", "Nuts"];
   return (
     <div>
       <h3>Products List</h3>
