@@ -92,6 +92,7 @@ Using a combination of asynchronous and synchronous functions as event handlers 
 
 Asynchronous Operations: 
 All three functions (handleClick, handleClick1, handleClick3) include asynchronous operations due to the async keyword and the await usage.
+
 Synchronous Operations: 
 The initial logs and operations that occur before waiting in each function are synchronous.
  
