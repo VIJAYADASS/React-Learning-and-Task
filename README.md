@@ -74,11 +74,12 @@ Conditional rendering and ternary operator usage
 Add conditional statements and ternary operators using props in Parent and Child components. 
 
 List and Key Components.
-Create a dummy product list with an array and use keys for list items
+Create a dummy product list with an array and use keys for list items.
+
 # Task 1 for List and Key.
 Create a React component named TaskList that displays a list of tasks. Use the following array of tasks: 
-Your component should display each task in an unordered list (<ul>), 
-and each task should be wrapped in a list item (<li>). 
+Your component should display each task in an unordered list (ul), 
+and each task should be wrapped in a list item (li). 
 Use the id of each task as the key prop for each li element.
 
 # Task 2 for List and Key.
